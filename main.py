@@ -19,7 +19,7 @@ async def sooty_mold():
     return {
         "DESCRIPTION": "Dark Brown, Black mostly seen in Warm and Dry period and grows on honeydew excreted by piercing sucking insects.",
         "LETHALITY": "Not lethal, Mild, Moderate",
-        "HUMIDITY": "Warm or Dry Weather."
+        "HUMIDITY": "Warm or Dry Weather"
     }
 
 @app.get("/redrust/")
@@ -29,3 +29,10 @@ async def red_rust():
         "LETHALITY": "Not lethal, Mild, Moderate",
         "HUMIDITY": "Wet and warm weather"
     }
+
+@app.get("/powderymildew/"
+         async def powdery_mildew():
+             return {
+                 "DESCRIPTION": "Powdery mildew is a fungal disease that affects mango trees. It appears as a white or grayish powdery growth on leaves, shoots, flowers, and fruits. Severe infections can weaken the tree and reduce productivity."
+                 "LETHALITY": "Not lethal, Moderate"
+                 "HUMIDITY": "Moderate to high humidity, favorable conditions include warm weather"
