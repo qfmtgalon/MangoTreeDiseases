@@ -36,3 +36,5 @@ async def red_rust():
                  "DESCRIPTION": "Powdery mildew is a fungal disease that affects mango trees. It appears as a white or grayish powdery growth on leaves, shoots, flowers, and fruits. Severe infections can weaken the tree and reduce productivity."
                  "LETHALITY": "Not lethal, Moderate"
                  "HUMIDITY": "Moderate to high humidity, favorable conditions include warm weather"
+             }
+
