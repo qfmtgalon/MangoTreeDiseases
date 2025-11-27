@@ -9,7 +9,7 @@ class Msg(BaseModel):
 @app.get("/anthracnose/")
 async def anthracnose():
     return {
-        "DESCRIPTION": "a group of fungal diseases that causes sunken spots or lesions on the leaves, stems, flowers, and fruits of many plants, including trees like maple and oak, and crops like bananas and tomatoes",
+        "DESCRIPTION": "Anthracnose is a particularly troublesome fungal infection that requires attention across the entire cultivation and storage process. This common crop disease can strike before harvest and continue to develop even after crops are picked. It affects stems, leaves, shoots, flowers, and fruits, causing dead tissue patches, leaf drops, and fruit damage. The fungi grow and spread best in warm, humid environments.",
         "LETHALITY": "Not lethal, moderate",
         "HUMIDITY": "Warm and moist weather"
     }
